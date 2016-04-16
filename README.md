@@ -4,10 +4,12 @@
 
 # Usage
 
-You can build your custom emoji keyboard refer to EmojiKeyboardLayout.
+  You can build your custom emoji keyboard refer to KeyboardLayout/EmojiKeyboardLayout.
 
-# Reference
-  emojicon-library: A library to show emoji in TextView, EditText (like WhatsApp) for Android
+  keyboard-library is a library to swith system keyboard and custom keyboard.
+
+  emojicon-library is a library to show emoji in TextView, EditText (like WhatsApp) for Android
+
   https://github.com/rockerhieu/emojicon
 
 # Changelog

@@ -7,7 +7,7 @@
 You can build your custom emoji keyboard refer to EmojiKeyboardLayout.
 
 # Reference
-  A library to show emoji in TextView, EditText (like WhatsApp) for Android
+  emojicon-library: A library to show emoji in TextView, EditText (like WhatsApp) for Android
   https://github.com/rockerhieu/emojicon
 
 # Changelog

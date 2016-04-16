@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/emoji-keyboard.iml" filepath="$PROJECT_DIR$/emoji-keyboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emojicon-library/emojicon-library.iml" filepath="$PROJECT_DIR$/emojicon-library/emojicon-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/keyboard-library/keyboard-library.iml" filepath="$PROJECT_DIR$/keyboard-library/keyboard-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/keyboard-sample/keyboard-sample.iml" filepath="$PROJECT_DIR$/keyboard-sample/keyboard-sample.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+	   xmlns:emojicon="http://schemas.android.com/apk/res-auto">
+	<!-- input -->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:gravity="center_vertical"
+		android:orientation="horizontal"
+		android:paddingLeft="8dp"
+		android:paddingRight="8dp">
+
+		<com.rockerhieu.emojicon.EmojiconEditText
+			android:id="@+id/text_input"
+			style="@style/TextAppearance.AppCompat.Body1"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:background="#ffffff"
+			android:inputType="textNoSuggestions|textMultiLine"
+			android:maxLines="6"
+			android:padding="4dp"
+			emojicon:emojiconSize="26sp"/>
+
+		<View
+			android:id="@+id/emoji_btn"
+			android:layout_width="32dp"
+			android:layout_height="32dp"
+			android:layout_marginLeft="10dp"
+			android:background="@drawable/selector_btn_emoji"/>
+
+
+		<Button
+			android:id="@+id/send_btn"
+			android:layout_width="50dp"
+			android:layout_height="25dp"
+			android:layout_marginLeft="10dp"
+			android:background="@drawable/selector_btn_blue"
+			android:text="Send"
+			android:textAllCaps="false"
+			android:textColor="#ffffff"
+			android:textSize="13sp"/>
+	</LinearLayout>
+
+
+	<!-- emoji -->
+	<FrameLayout
+		android:id="@+id/emoji_keyboard"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:clickable="true"/>
+</merge>
